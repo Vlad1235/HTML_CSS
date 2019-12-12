@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Редактирование профиля</title>
+    <link rel="stylesheet" href="styleForma.css">
+  </head>
+  <body>
+    <h1>Профиль</h1>
+
+    <form action="https://localhost:8080" method="post">
+      <label>Ваш пол: 
+      <input type="radio" name="sex" value="Мужской">Мужской 
+      <input type="radio" name="sex" value="Женский" checked>Женский
+      </label><br>
+      Месяц и год рождения:<br>
+      <select name="Месяц">
+        <option value="Январь">Январь</option>
+        <option value="Февраль">Февраль</option>
+      </select>
+      <select name="Год рождения">
+        <option value="1990">1990</option>
+        <option value="1991">1991</option>
+      </select><br>
+      Знакомые технологии:<br>
+      <select name="Знакомые технологии" multiple size="5">
+        <option value="HTML"> HTML</option>
+        <option value="CSS" selected>CSS</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Java">Java</option>
+        <option value="Spring Framework">Spring Framework</option>
+      </select>
+      <br>
+      <label for="select_file">Фото:
+      <input type="file" name="Загрузить" id="select_file">
+      </label>
+      <input type="submit" name="Сохранить" value="Сохранить">
+    </form>
+  </body>
+</html>
