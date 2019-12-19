@@ -1,0 +1,9 @@
+svg {
+    border: 1px solid #dddddd;
+  }
+  
+  .shape-opacity {
+    fill: yellowgreen;
+    fill-opacity: 0.75;
+  }
+  
