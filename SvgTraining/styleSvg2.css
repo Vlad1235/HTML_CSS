@@ -1,0 +1,22 @@
+svg {
+    border: 1px solid #dddddd;
+  }
+  
+  .fig-1{
+    fill: none;
+    stroke: yellowgreen;
+    stroke-width: 5px;
+  }
+  
+  .fig-2{
+    fill: none;
+    stroke: gold;
+    stroke-width: 10px;
+  }
+  
+  .fig-3{
+     fill: none;
+    stroke: lightseagreen;
+    stroke-width: 25px; 
+    stroke-opacity: .6;
+  }
