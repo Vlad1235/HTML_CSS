@@ -1,4 +1,5 @@
 body {
+  background-color: #f5f5f5;
     padding: 10px;
     font-size: 14px;
     line-height: 1.4;
@@ -46,3 +47,10 @@ body {
   .main-menu > li:hover .sub-menu {
     display: block;
   }
+.flag{
+  margin: 100px auto;
+  width: 360px;
+  height: 240px;
+  background-image: linear-gradient(#ffffff 25%, #1199ff 50%, #0039ab 75%, #d52b1e 100%);
+  box-shadow: 1px 1px 3px #333333;
+}
