@@ -1,0 +1,26 @@
+@import 'css/buttons.css';    
+
+body {
+    background-color: khaki;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.hhhh {
+    color:gray;
+}
+
+.chapter {
+   color: blue; 
+}
+
+#begin {
+    color: green;
+    font-weight: bold;
+}
